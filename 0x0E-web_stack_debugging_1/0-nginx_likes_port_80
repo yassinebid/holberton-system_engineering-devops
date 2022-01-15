@@ -2,4 +2,8 @@
 #fix port 80
 sudo rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+<<<<<<< HEAD
 sudo service nginx restart
+=======
+sudo service nginx restart
+>>>>>>> 1f0e1b8df5786907235c696159027137f23a1009
